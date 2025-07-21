@@ -1,7 +1,9 @@
 services:
   - type: web
-    name: Know_Your_Meds-AI-Chatbot-
+    name: know-your-meds
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run chat.py --server.port=10000
     plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run chat.py --server.port=$PORT --server.headless=true
+    runtime: python
+    pythonVersion: 3.10
