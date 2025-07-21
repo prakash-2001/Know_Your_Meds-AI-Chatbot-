@@ -1,12 +1,10 @@
 streamlit
 pandas
 openpyxl
-
-transformers==4.41.1
+transformers==4.39.3
 torch>=2.0.0
 sentence-transformers
 faiss-cpu
-
 langchain>=0.2.2
 langchain-community
 langchain-huggingface
