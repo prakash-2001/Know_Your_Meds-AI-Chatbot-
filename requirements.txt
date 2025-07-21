@@ -1,7 +1,7 @@
 streamlit
 pandas
 openpyxl
-transformers
+transformers==4.39.3
 torch
 sentence-transformers
 faiss-cpu
