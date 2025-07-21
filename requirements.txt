@@ -1,9 +1,17 @@
+# Core Libraries
 streamlit
 pandas
 openpyxl
-transformers==4.39.3
-torch
+
+# Model + NLP
+transformers==4.41.1
+torch>=2.0.0
 sentence-transformers
+
+# Vector Indexing
 faiss-cpu
-langchain
+
+# Langchain with compatible embeddings
+langchain>=0.2.2
 langchain-community
+langchain-huggingface
