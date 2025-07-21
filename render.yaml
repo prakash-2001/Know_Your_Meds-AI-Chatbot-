@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: know-your-meds
+    name: Know_Your_Meds-AI-Chatbot-
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
